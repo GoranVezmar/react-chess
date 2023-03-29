@@ -1,0 +1,22 @@
+.layout {
+  display: flex;
+  height: 100vh;
+  background-color: var(--globalGrey);
+  color: var(--globalWhite);
+  font-size: 1.6rem;
+
+  @media (max-width: $globalMobilePhoneBreakpoint) {
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+  }
+}
+
+.layout_game {
+  flex: 7;
+  padding: 2rem;
+
+  @media (max-width: $globalMobilePhoneBreakpoint) {
+    flex: none;
+  }
+}
