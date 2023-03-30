@@ -1,5 +1,4 @@
 .instructions {
-  display: flex;
   margin-bottom: 2rem;
 
   @media (max-width: $globalMobilePhoneBreakpoint) {
@@ -7,12 +6,12 @@
   }
 }
 
-.instructions_right {
-  margin-left: 2rem;
-  font-size: 1.4rem;
+.instructions_title {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
 
-  @media (max-width: $globalMobilePhoneBreakpoint) {
-    margin-left: 0;
-    margin-top: 1rem;
-  }
+.instructions_right {
+  font-size: 1.4rem;
+  margin-top: 1rem;
 }

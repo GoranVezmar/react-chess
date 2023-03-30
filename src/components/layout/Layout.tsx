@@ -7,7 +7,6 @@ const Layout = () => {
   return (
     <div className='layout'>
       <div className='layout_game'>
-        <Instructions />
         <Chessboard />
       </div>
       <Sidebar />

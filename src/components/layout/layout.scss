@@ -14,7 +14,9 @@
 
 .layout_game {
   flex: 7;
-  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 
   @media (max-width: $globalMobilePhoneBreakpoint) {
     flex: none;

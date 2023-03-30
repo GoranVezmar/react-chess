@@ -1,6 +1,7 @@
 import { useContext } from 'react'
 import { GameContext } from '../../store/GameContext'
 import { generateMoveMessage } from '../../helpers/moves'
+import Instructions from '../instructions/Instructions'
 import './sidebar.scss'
 
 const Sidebar = () => {
@@ -8,6 +9,7 @@ const Sidebar = () => {
 
   return (
     <div className='sidebar'>
+      <Instructions />
       <div className='sidebar_label'>Moves:</div>
       <ul className='sidebar_moves'>
         {moves.map((move) => (

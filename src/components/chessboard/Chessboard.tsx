@@ -1,4 +1,3 @@
-import { useContext } from 'react'
 import { ALLOWED_ROW_TYPES, ALLOWED_COLUMN_TYPES } from '../../types/global'
 import ChessboardFiled from '../chessboardField/ChessboardFiled'
 import './chessboard.scss'
